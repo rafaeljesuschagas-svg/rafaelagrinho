@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - O Motor do País</title>
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #1b4d3e; /* Verde escuro representativo */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #8db600; /* Detalhe em verde claro */
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Seção de Introdução */
+        .intro {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            border-left: 5px solid #1b4d3e;
+        }
+
+        .intro h2 {
+            color: #1b4d3e;
+            margin-bottom: 15px;
+        }
+
+        /* Grid de Pilares do Agro */
+        .grid-pilares {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .pilar-card {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .pilar-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .pilar-card h3 {
+            color: #8db600;
+            margin-bottom: 12px;
+            font-size: 1.4rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #1b4d3e;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agro Forte, Brasil Forte</h1>
+        <p>A força da nossa terra alimentando o mundo</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="intro">
+            <h2>O Poder do Agronegócio</h2>
+            <p>O conceito de <strong>Agro Forte</strong> representa a modernidade, a resiliência e a riqueza da produção no campo. Mais do que plantar e colher, o agronegócio move a economia, gera milhões de empregos e coloca o país em destaque como um dos maiores provedores de alimentos e sustentabilidade do planeta.</p>
+        </section>
+
+        <section class="grid-pilares">
+            <div class="pilar-card">
+                <h3>Tecnologia no Campo</h3>
+                <p>Uso de drones, inteligência artificial e maquinários de última geração para otimizar a produção e reduzir desperdícios.</p>
+            </div>
+
+            <div class="pilar-card">
+                <h3>Sustentabilidade</h3>
+                <p>Práticas agrícolas conscientes que preservam os recursos naturais, promovendo o equilíbrio entre produção e meio ambiente.</p>
+            </div>
+
+            <div class="pilar-card">
+                <h3>Economia Viva</h3>
+                <p>O agro é um dos principais pilares do PIB, gerando oportunidades desde a agricultura familiar até as grandes exportações.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Orgulho de ser Agro Forte. Desenvolvido com HTML e CSS.</p>
+    </footer>
+
+</body>
+</html>
